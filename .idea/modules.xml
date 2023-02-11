@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/hw_2_base_operations/hw_2_base_operations.iml" filepath="$PROJECT_DIR$/hw_2_base_operations/hw_2_base_operations.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_5_online.iml" filepath="$PROJECT_DIR$/java_5_online.iml" />
     </modules>
   </component>
