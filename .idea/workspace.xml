@@ -5,30 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9e53b7c-2a20-4a28-b794-94b70de140b9" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level1/minimal/ua/com/alevel/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level1/minimal/ua/com/alevel/test/Second.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level1/package/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level1/package/Second.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level1/separate/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level1/separate/test/Second.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level1/simple/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level2/build_jar/lib/commons-lang3-3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level2/build_jar/resources/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level2/build_jar/src/ua/com/alevel/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level2/build_jar/src/ua/com/alevel/test/Second.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level2/minimal/src/ua/com/alevel/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level2/minimal/src/ua/com/alevel/test/Second.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level2/minimal_jar/build/jar/biden.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level2/minimal_jar/lib/commons-lang3-3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level2/minimal_jar/resources/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level2/minimal_jar/src/ua/com/alevel/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/level2/minimal_jar/src/ua/com/alevel/test/Second.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_1_compilated/removeclass.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_2_base_operation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_2_base_operation/src/main/java/ua/com/alevel/Count.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_1_compilated/level2/build_jar/src/ua/com/alevel/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_1_compilated/level2/build_jar/src/ua/com/alevel/First.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java_5_online.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_5_online.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_2_base_operations/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +39,15 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2LGz2u9g20ypN4guYLBI9OdGpkO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -137,9 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.First" />
         <item itemvalue="Shell Script.removeclass.sh" />
         <item itemvalue="JAR Application.biden.jar (1)" />
-        <item itemvalue="Application.First" />
         <item itemvalue="JAR Application.biden.jar" />
       </list>
     </recent_temporary>
