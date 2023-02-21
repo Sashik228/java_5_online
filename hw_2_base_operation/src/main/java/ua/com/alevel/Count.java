@@ -1,28 +1,23 @@
 package ua.com.alevel;
-import java.util.HashSet;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class Count {
-    public void countOfLetters(String userLine) {
-        StringBuilder alphabetic = new StringBuilder("");
-        for (int i = 0; i < userLine.length(); i++) {
-            if (Character.isLetter(userLine.charAt(i))) {
-                alphabetic.append((userLine.charAt(i)));
-            }
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите строку: ");
+        String input = scanner.nextLine();
+
+        Pattern pattern = Pattern.compile("-?\\d+");
+        Matcher matcher = pattern.matcher(input);
+
+        int sum = 0;
+        while (matcher.find()) {
+            int number = Integer.parseInt((matcher.group()));
+            sum += number;
         }
 
-        char[] userLineToCharArray = alphabetic.toString().toCharArray();
-        HashSet<Character> characterHashSet = new HashSet<>();
-        for (char c : userLineToCharArray) {
-            characterHashSet.add(c);
-        }
-
-        for (Character character : characterHashSet) {
-            int occurrence = 0;
-            for (char c : userLineToCharArray) {
-                if (character == c) {
-                    occurrence++;
-                }
-            }
-            System.out.println(character + " -> " + occurrence);
-        }
+        System.out.println("Сумма найденных чисел: " + sum);
     }
 }

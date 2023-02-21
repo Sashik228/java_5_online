@@ -4,25 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9e53b7c-2a20-4a28-b794-94b70de140b9" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/hw_2_base_operation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_2_base_operation/src/main/java/ua/com/alevel/Count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_1_compilated/level2/build_jar/src/ua/com/alevel/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_1_compilated/level2/build_jar/src/ua/com/alevel/First.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_5_online.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_5_online.iml" afterDir="false" />
-    </list>
+    <list default="true" id="d9e53b7c-2a20-4a28-b794-94b70de140b9" name="Changes" comment="12" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">
@@ -47,7 +46,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2LGz2u9g20ypN4guYLBI9OdGpkO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -60,12 +59,17 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/moska/IdeaProjects/java_5_online&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/moska/IdeaProjects/java_5_online/hw_2_base_operation/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/moska/IdeaProjects/java_5_online/hw_2_base_operation/src/main/java/ua/com/alevel&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;xpath.settings&quot;
@@ -73,11 +77,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\moska\IdeaProjects\java_5_online\hw_2_base_operation\src\main\java\ua\com\alevel" />
       <recent name="C:\Users\moska\IdeaProjects\java_5_online\hw_1_compilated\level2\build_jar\lib" />
       <recent name="C:\Users\moska\IdeaProjects\java_5_online\hw_1_compilated\level2\build_jar" />
       <recent name="C:\Users\moska\IdeaProjects\java_5_online\hw_1_compilated\level2\minimal_jar" />
       <recent name="C:\Users\moska\IdeaProjects\java_5_online\hw_1_compilated\level2\minimal\src\ua\com" />
-      <recent name="C:\Users\moska\IdeaProjects\java_5_online\hw_1_compilated\level2\minimal\src\ua\com\alevel" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\moska\IdeaProjects\java_5_online\hw_1_compilated\level2\minimal_jar\lib" />
@@ -87,10 +91,10 @@
       <recent name="C:\Users\moska\IdeaProjects\java_5_online\hw_1_compilated\level1\separate\test" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ua.com.alevel.First" />
-      <module name="java_5_online" />
+  <component name="RunManager" selected="Application.Lessons">
+    <configuration name="CharCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.com.alevel.CharCounter" />
+      <module name="hw_2_base_operation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ua.com.alevel.*" />
@@ -101,13 +105,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="biden.jar (1)" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/hw_1_compilated/level2/build_jar/build/jar/biden.jar" />
-      <method v="2" />
+    <configuration name="Count" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.com.alevel.Count" />
+      <module name="hw_2_base_operation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.com.alevel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="biden.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/hw_1_compilated/level2/minimal_jar/build/jar/biden.jar" />
-      <method v="2" />
+    <configuration name="First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.com.alevel.First" />
+      <module name="java_5_online" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lessons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.com.alevel.Lessons" />
+      <module name="hw_2_base_operation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.com.alevel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="removeclass.sh" type="ShConfigurationType" temporary="true">
       <option name="SCRIPT_TEXT" value="" />
@@ -126,10 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lessons" />
+        <item itemvalue="Application.CharCounter" />
+        <item itemvalue="Application.Count" />
         <item itemvalue="Application.First" />
         <item itemvalue="Shell Script.removeclass.sh" />
-        <item itemvalue="JAR Application.biden.jar (1)" />
-        <item itemvalue="JAR Application.biden.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -156,13 +192,42 @@
       <option name="project" value="LOCAL" />
       <updated>1675513442675</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="12">
+      <created>1676501279177</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676501279177</updated>
+    </task>
+    <task id="LOCAL-00004" summary="12">
+      <created>1676501339751</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676501339751</updated>
+    </task>
+    <task id="LOCAL-00005" summary="12">
+      <created>1676501431609</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676501431609</updated>
+    </task>
+    <task id="LOCAL-00006" summary="12">
+      <created>1677011410211</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677011410211</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="12" />
+    <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
