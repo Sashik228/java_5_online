@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/maven/pom.xml" />
         <option value="$PROJECT_DIR$/hw_2_base_operation/pom.xml" />
+        <option value="$PROJECT_DIR$/hw_3_start_oop_crud/pom.xml" />
       </list>
     </option>
   </component>
