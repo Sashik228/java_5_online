@@ -1,4 +1,3 @@
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -41,12 +40,12 @@ public class Menu {
         String userString = reader.readLine();
         System.out.println("виберіть частину яку перевернути");
         String substringToReverse = reader.readLine();
-        System.out.println(Metod.reverse(userString, substringToReverse));
+        System.out.println(Method.reverse(userString, substringToReverse));
     }
 
     public void usualReverse(BufferedReader reader) throws IOException {
         System.out.println("Введіть строку");
-        System.out.println(Metod.reverse(reader.readLine()));
+        System.out.println(Method.reverse(reader.readLine()));
     }
 
     public void reverseWithIndexes(BufferedReader reader) throws IOException {
@@ -56,6 +55,6 @@ public class Menu {
         int firstIndex = Integer.parseInt(reader.readLine());
         System.out.println("По який ");
         int secondIndex = Integer.parseInt(reader.readLine());
-        System.out.println(Metod.reverse(userString, firstIndex, secondIndex));
+        System.out.println(Method.reverse(userString, firstIndex, secondIndex));
     }
 }
