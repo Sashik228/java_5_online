@@ -1,18 +1,18 @@
-public class Metod {
+public class Method {
+
     public static String reverse(String string) {
-        {
-            char[] charArrOfString = string.toCharArray();
-            int end = charArrOfString.length - 1;
-            for (int i = 0; i < charArrOfString.length / 2; i++) {
-                char temp;
-                temp = charArrOfString[end];
-                charArrOfString[end] = charArrOfString[i];
-                charArrOfString[i] = temp;
-                end--;
-            }
-            return new String(charArrOfString);
+        char[] charArrOfString = string.toCharArray();
+        int end = charArrOfString.length - 1;
+        for (int i = 0; i < charArrOfString.length / 2; i++) {
+            char temp;
+            temp = charArrOfString[end];
+            charArrOfString[end] = charArrOfString[i];
+            charArrOfString[i] = temp;
+            end--;
         }
+        return new String(charArrOfString);
     }
+
     public static String reverse(String string, String dest) {
         int index = string.indexOf(dest);
         if (index > 0) {
@@ -21,6 +21,7 @@ public class Metod {
         }
         return "Помилка";
     }
+
     public static String reverse(String string, int firstIndex, int
             lastIndex) {
         if (firstIndex >= 0 && lastIndex > 0 && lastIndex < string.length()
