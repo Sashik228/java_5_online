@@ -3,6 +3,7 @@ package ua.com.alevel.entity;
 public class Group extends BaseEntityGroup {
 
     private String name;
+
     public String getName() {
         return name;
     }

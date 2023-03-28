@@ -25,5 +25,4 @@ public class GroupStudentRelation {
         this.student = student;
         this.group = group;
     }
-
 }

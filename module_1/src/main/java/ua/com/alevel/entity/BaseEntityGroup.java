@@ -2,7 +2,8 @@ package ua.com.alevel.entity;
 
 public abstract class BaseEntityGroup {
 
-    private  String id;
+    private String id;
+
     public String getId() {
         return id;
     }
@@ -17,5 +18,4 @@ public abstract class BaseEntityGroup {
                 "айді='" + id + '\'' +
                 '}';
     }
-
 }

@@ -38,5 +38,4 @@ public class Student extends BaseEntityStudent {
                 ", вік=" + age +
                 "} " + getId();
     }
-
 }

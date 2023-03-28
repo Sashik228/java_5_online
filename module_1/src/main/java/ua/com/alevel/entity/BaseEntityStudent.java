@@ -3,6 +3,7 @@ package ua.com.alevel.entity;
 public abstract class BaseEntityStudent {
 
     private String id;
+
     public String getId() {
         return id;
     }
@@ -17,5 +18,4 @@ public abstract class BaseEntityStudent {
                 "айді='" + id + '\'' +
                 '}';
     }
-
 }
