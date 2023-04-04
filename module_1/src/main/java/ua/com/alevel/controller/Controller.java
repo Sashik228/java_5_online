@@ -75,10 +75,10 @@ public class Controller {
         }
     }
 
-    private void printListOfStudents(){
+    private void printListOfStudents() {
         ArrayList<Student> students = service.getStudents();
-        for(int i = 0; i<students.size();i++){
-            System.out.println((i + 1)+ " - " + students.get(i));
+        for (int i = 0; i < students.size(); i++) {
+            System.out.println((i + 1) + " - " + students.get(i));
         }
     }
 
@@ -96,7 +96,7 @@ public class Controller {
         ArrayList<Student> all_students = service.findAllStudentByGroup(id);
 
         System.out.println("Група = " + service.findByIdGroup(id));
-        for(Student st: all_students){
+        for (Student st : all_students) {
             System.out.println(st);
         }
     }
@@ -107,7 +107,7 @@ public class Controller {
         ArrayList<Group> all_groups = service.findAllGroupByStudent(id);
 
         System.out.println("Студент = " + service.findByIdStudent(id));
-        for(Group gr: all_groups){
+        for (Group gr : all_groups) {
             System.out.println(gr);
         }
     }
@@ -140,14 +140,14 @@ public class Controller {
         student.setFirstName(firstName);
         student.setLastName(lastName);
         student.setAge(age);
-        service.updateStudent(choice-1, student);
+        service.updateStudent(choice - 1, student);
     }
 
     private void deleteStudent(BufferedReader bufferedReader) throws IOException {
         printListOfStudents();
         System.out.println("Будь ласка введіть номер студента для видалення: ");
         int choice = Integer.parseInt(bufferedReader.readLine());
-        service.deleteStudent(choice -1);
+        service.deleteStudent(choice - 1);
     }
 
     private void findStudent(BufferedReader bufferedReader) throws IOException {
@@ -164,7 +164,7 @@ public class Controller {
         }
     }
 
-    private void createGroup (BufferedReader bufferedReader) throws IOException{
+    private void createGroup(BufferedReader bufferedReader) throws IOException {
         System.out.println("Будь ласка введіть ім'я групи: ");
         String name = bufferedReader.readLine();
         Group group = new Group();
@@ -172,7 +172,7 @@ public class Controller {
         service.createGroup(group);
     }
 
-    private void updateGroup (BufferedReader bufferedReader) throws IOException {
+    private void updateGroup(BufferedReader bufferedReader) throws IOException {
         printListOfGroup();
         System.out.println("Виберіть групу щоб обновити: ");
         int choice = Integer.parseInt(bufferedReader.readLine());
@@ -180,24 +180,24 @@ public class Controller {
         String name = bufferedReader.readLine();
         Group group = new Group();
         group.setName(name);
-        service.updateGroup(choice -1, group);
+        service.updateGroup(choice - 1, group);
     }
 
-    private void deleteGroup (BufferedReader bufferedReader) throws IOException{
+    private void deleteGroup(BufferedReader bufferedReader) throws IOException {
         printListOfGroup();
         System.out.println("Введіть номер групи яку видалити: ");
         int choice = Integer.parseInt(bufferedReader.readLine());
-        service.deleteGroup(choice -1);
+        service.deleteGroup(choice - 1);
     }
 
-    private void findGroup (BufferedReader bufferedReader) throws  IOException{
+    private void findGroup(BufferedReader bufferedReader) throws IOException {
         System.out.println("Будь ласка введіть айді: ");
-        String id  = bufferedReader.readLine();
+        String id = bufferedReader.readLine();
         Group group = service.findByIdGroup(id);
         System.out.println("Група = " + group);
     }
 
-    private void findAllGroup (BufferedReader bufferedReader) {
+    private void findAllGroup(BufferedReader bufferedReader) {
         ArrayList<Group> groups = service.getGroups();
         for (Group group : groups) {
             System.out.println("Група = " + group);

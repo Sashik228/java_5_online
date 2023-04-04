@@ -1,4 +1,5 @@
 package ua.com.alevel;
+
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -8,8 +9,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-
 public class Main {
+
     public static void WordCount() {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
 
@@ -27,7 +28,6 @@ public class Main {
 
             List<Map.Entry<String, Long>> sorted = procent.entrySet().stream()
                     .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())).toList();
-            ;
 
             long total = sorted.stream().mapToLong(Map.Entry::getValue).sum();
             System.out.println("");
@@ -48,5 +48,3 @@ public class Main {
         }
     }
 }
-
-
