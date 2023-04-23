@@ -1,0 +1,17 @@
+5
+Ukraine  0,1000, 0, 0, 1500
+Poland   1000, 0, 2500, 0, 900
+Germany  0, 2500, 0, 1800, 1600
+Czech    0, 0, 1800, 0, 1500
+Slovakia 1500, 900, 1600, 1500, 0
+
+according to your choice
+
+
+                  (0) Ukraine
+             1000/   \1500
+                /     \
+      Poland (1)- 900 -(4) Slovakia
+         2500 |1600 /   | 1500
+              |   /     |
+     Germany (2)--1800--(3) Czech

@@ -1,0 +1,3 @@
+The Cheapest route is: $ 1500
+   also, if you want, you can choose alternative route
+The 2nd position route is: $ 1900
